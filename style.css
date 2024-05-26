@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Grand+Hotel&family=Martel+Sans:wght@700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 4%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #555555;
+
+
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 10px 20px;
+
+
+}
+
+.header-content>p {
+    text-align: center;
+
+    font-weight: 900;
+    padding: 10px 20px;
+
+}
+
+.header-content>h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 0 0 5px 10px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #e50914;
+    padding: 5px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    max-width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 8px solid #222;
+    padding: 70px 45px;
+}
+
+.container {
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: center;
+}
+
+.box2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 40%;
+    justify-content: center;
+}
+
+.box2>img {
+    z-index: 1;
+    max-width: fit-content;
+}
+
+ 
+.video1 {
+    width: 468px;
+    height: 489px;
+    position: absolute;
+    bottom: 10px;
+    left: 85px;
+}
+
+.video2 {
+    position: absolute;
+    width: 368px;
+    height: 208px;
+    top: 54px;
+    left: 132px;
+}
+
+.box1>h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.box2>h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+
+}
+
+footer>p {
+    font-weight: 900;
+    color: white;
+    padding: 20px;
+    font-size: large;
+
+}
